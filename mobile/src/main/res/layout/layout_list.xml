@@ -16,8 +16,6 @@
         android:clipChildren="false"
         android:clipToPadding="false"/>
     <!-- SSD -->
-
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/list_subscription"
         tools:listitem="@layout/layout_main_subscription"
@@ -29,4 +27,5 @@
         android:clipChildren="false"
         android:clipToPadding="false"/>
     <!-- DSS -->
+
 </LinearLayout>
