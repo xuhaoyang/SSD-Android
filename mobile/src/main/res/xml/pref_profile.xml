@@ -21,13 +21,14 @@
                 android:maxLength="5"
                 app:pref_summaryHasText="%s"
                 android:title="@string/remote_port"/>
-        <AutoSummaryEditTextPreference
+        <com.github.shadowsocks.preference.SSDPasswordToggleEditTextPreference
                 android:inputType="textPassword"
                 app:pref_summaryPasswordSubstituteLength="0"
                 android:key="sitekey"
                 app:pref_summaryHasText="%s"
                 android:singleLine="true"
-                android:title="@string/sitekey"/>
+                android:title="@string/sitekey"
+                android:dialogLayout="@layout/ssd_preference_dialog_password_toggle"/>
         <SimpleMenuPreference
                 android:key="encMethod"
                 android:icon="@drawable/ic_notification_enhanced_encryption"
